@@ -1,7 +1,14 @@
-nombres = ["Luis", "Roger", "Luz"]
+edades = [20, 18, 22, 17, 12, 21] #listas
+tuplas = (20, 18, 21, 17) #tuplas
+estut = {
+    "Nombre":"Erlan",
+    "Edad":20
+} #diccionarios
 
-for nombre in nombres:
-    print(nombre)
+print("Primer metodo")
+for edad in edades:
+    print(edad)
+print("Segundo metodo")
+for i in range(len(edades)):
+    print(edades[i])
 
-for i in range(len(nombres)):
-    print(nombres[i])

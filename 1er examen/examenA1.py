@@ -7,9 +7,6 @@ def factorial(n):
 def suma(x, y):
     return x + y
 
-def suma_tres(a, b, c):
-
-
 def divide(x, y):
     return x / y
 

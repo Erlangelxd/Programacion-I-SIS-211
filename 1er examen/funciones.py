@@ -1,10 +1,7 @@
 # Procedimiento
 def saludar(nombre):
     print(f"Hola {nombre}")
-
 #saludar("Erlan")
-
-
 def verificar_edad(edad):
     if edad >= 0 and edad <= 18:
         return False
@@ -20,7 +17,6 @@ def permiso(edad):
         print("Ingreso permitido")
     else:
         print("Ingreso no permitido")
-
 
 edad = int(input("Ingrese su edad: "))
 permiso(edad)
