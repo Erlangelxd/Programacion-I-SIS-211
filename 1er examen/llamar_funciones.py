@@ -4,8 +4,8 @@ def factorial(n):
         resultado = resultado * numero
     return resultado
 
-def suma(x, y):
-    return x + y
+def suma(valor1, valor2):
+    return valor1 + valor2
 
 def divide(x, y):
     return x / y
