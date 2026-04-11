@@ -12,3 +12,4 @@ if cp > ci:
     print(f"Hay mas pares: {cp}")
 else:
     print(f"Hay mas impares:{ci}")
+
