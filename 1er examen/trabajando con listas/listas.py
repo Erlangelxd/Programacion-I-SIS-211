@@ -1,4 +1,4 @@
-edades = [20, 18, 22, 17, 12, 21] #listas
+edades = [20, 18, 22, 17, 12, 21] #trabajando con listas
 tuplas = (20, 18, 21, 17) #tuplas
 estut = {
     "Nombre":"Erlan",
