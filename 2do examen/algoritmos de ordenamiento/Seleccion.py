@@ -11,12 +11,11 @@ def Seleccion(V, n):
                 minimo = j
         V[i], V[minimo] = V[minimo], V[i]
 
-
 n = int(input("Longitud"))
 V = [0]*n
-llena(V, n)
+Llena(V, n)
 print(V)
-seleccion(V, n)
+Seleccion(V, n)
 print(V)
 
 
