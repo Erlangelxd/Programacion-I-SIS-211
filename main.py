@@ -1,3 +1,3 @@
-V = [5, 4, 2, 1, 0, 3]
-V.sort()
+V = [i for i in range(1, 20)]
+
 print(V)
