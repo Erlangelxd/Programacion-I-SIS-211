@@ -1,0 +1,2 @@
+12345, Luis, 22, Covid 
+Maria, Maria, 20, Covid 
