@@ -1,6 +1,6 @@
 def crear_autos():
     with(open("Autos.txt","w"))as texto:
-        contenido = texto.write("")
+        texto.write("")
 def marca_auto():
     with(open("Autos.txt","a"))as texto:
         marca_auto = input("Ingrese la marca del auto:  ")

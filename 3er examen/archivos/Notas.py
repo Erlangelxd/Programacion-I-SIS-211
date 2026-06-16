@@ -1,6 +1,6 @@
 def crear_archivo():
     with(open("Rodrigo.txt", "w")) as texto:
-        contenido = texto.write("")
+        texto.write("")
 
 def agregar_nota():
     with(open("Rodrigo.txt", "a")) as texto:

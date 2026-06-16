@@ -1,6 +1,6 @@
 def crear(nombre_archivo):
     with(open(nombre_archivo, "w")) as archivo:
-        contenido = archivo.write("")
+        archivo.write("")
 
 def agregar_linea(nombre_archivo):
     with(open(nombre_archivo, "a")) as archivo:

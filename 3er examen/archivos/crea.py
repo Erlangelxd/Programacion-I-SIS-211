@@ -1,6 +1,6 @@
 def crear_archivo():
     with (open("ejemplo.txt", "w")) as archivo:
-        contenido = archivo.write("")
+        archivo.write("")
 
 def añade_RU():
     with(open("ejemplo.txt", "a")) as archivo:
